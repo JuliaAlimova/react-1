@@ -9,6 +9,13 @@
   gap: 20px;
 }
 
+.contact-info__image {
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+  object-fit: contain;
+}
+
 .contact-info__values {
   display: flex;
   flex-direction: column;
@@ -18,6 +25,12 @@
 .sub-values-list {
   display: flex;
   gap: 12px;
+  align-items: center;
+}
+
+.sub-value {
+  display: flex;
+  gap: 16px;
   align-items: center;
 }
 
