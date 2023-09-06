@@ -1,0 +1,16 @@
+.attractions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.attractions__list {
+  display: grid;
+  gap: 24px;
+}
+
+.attraction__link {
+  text-decoration-line: underline;
+  color: #000;
+}

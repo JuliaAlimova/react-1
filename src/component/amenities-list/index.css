@@ -1,0 +1,22 @@
+.amenities {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.amenities__list {
+  display: grid;
+  gap: 12px;
+}
+
+.amenities--true::after {
+  content: "+";
+  font-weight: bold;
+  color: green;
+}
+
+.amenities--false::after {
+  content: "-";
+  font-weight: bold;
+  color: red;
+}

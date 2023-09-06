@@ -1,0 +1,31 @@
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.contact-info__block {
+  display: flex;
+  gap: 20px;
+}
+
+.contact-info__values {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.sub-values-list {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.sub-value:not(:last-child)::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 4px;
+  border-radius: 4px;
+  background-color: #000;
+}
